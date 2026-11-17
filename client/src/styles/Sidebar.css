@@ -1,0 +1,61 @@
+
+.sidebar {
+  width: 320px;
+  background: #11182b;
+  border-right: 1px solid #27314b;
+  padding: 30px 23px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  font-size: 23px;
+  font-weight: 800;
+  color: #f4f6ff;
+}
+
+.brand svg,
+.brand span {
+  color: #a48cff;
+}
+
+.tagline {
+  color: #a1acc4;
+  margin: 0 0 35px;
+  font-size: 13px;
+}
+
+.side-title {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #8795b3;
+  font-weight: 700;
+}
+
+.sidebar-bottom {
+  margin-top: auto;
+  color: #7e8ca8;
+  font-size: 11px;
+}
+
+@media (max-width: 780px) {
+  .sidebar {
+    width: 100%;
+    padding: 17px;
+    gap: 12px;
+  }
+
+  .tagline {
+    margin: 0;
+  }
+
+  .sidebar-bottom {
+    display: none;
+  }
+}

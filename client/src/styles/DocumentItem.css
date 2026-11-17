@@ -1,0 +1,29 @@
+
+.doc-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  background: #1a243a;
+  border: 1px solid #34415e;
+  border-radius: 11px;
+  padding: 12px;
+}
+
+.doc-item strong {
+  display: block;
+  max-width: 220px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-size: 13px;
+}
+
+.doc-item small {
+  display: block;
+  color: #a0abc1;
+  font-size: 11px;
+  margin-top: 4px;
+}

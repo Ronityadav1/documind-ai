@@ -1,0 +1,71 @@
+
+.composer-wrap {
+  padding: 14px max(25px, calc((100% - 850px) / 2)) 22px;
+}
+
+.composer {
+  display: flex;
+
+  background: #1a243a;
+  border: 1px solid #445171;
+  border-radius: 13px;
+
+  padding: 8px;
+}
+
+.composer input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+
+  color: white;
+
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+}
+
+.composer button {
+  border: 0;
+  background: #8068ee;
+  color: white;
+
+  border-radius: 9px;
+  width: 43px;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+}
+
+.composer button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.composer-wrap > small {
+  display: block;
+  text-align: center;
+
+  color: #8390ab;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.error {
+  color: #ffc3c3;
+  background: #4b202b;
+
+  padding: 11px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+
+  font-size: 13px;
+}
+
+@media (max-width: 780px) {
+  .composer-wrap {
+    padding: 12px;
+  }
+}
